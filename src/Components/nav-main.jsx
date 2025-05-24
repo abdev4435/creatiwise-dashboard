@@ -26,10 +26,9 @@ export function NavMain({
       <SidebarMenu>
         {items.map((item) =>
         (
-          <>
+          <div key={item.title}>
             {item.title == "Profile" && (<Separator className={"h-1 bg-gray-200"} />)}
             <Collapsible
-              key={item.title}
               asChild
               defaultOpen={item.isActive}
               className="group/collapsible">
@@ -43,9 +42,9 @@ export function NavMain({
                   </SidebarMenuButton>
                 </CollapsibleTrigger>
                 {item.items?.map((subItem) => (
-                  <CollapsibleContent>
+                  <CollapsibleContent key={subItem.title}>
                     <SidebarMenuSub>
-                      <SidebarMenuSubItem key={subItem.title}>
+                      <SidebarMenuSubItem>
                         <SidebarMenuSubButton className={"hover:text-blue-500 focus:text-blue-500"} asChild>
                           <a href={subItem.url}>
                             <span>{subItem.title}</span>
@@ -57,7 +56,7 @@ export function NavMain({
                 ))}
               </SidebarMenuItem>
             </Collapsible>
-          </>
+          </div>
         )
         )}
       </SidebarMenu>

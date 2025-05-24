@@ -414,22 +414,20 @@ export function DataTable({
     }
   }
   const tabStatuses = [...new Set(data.map((article) => article.status))]
-  console.log(tabStatuses)
   return (
     (<Tabs defaultValue="generated" value={activeTab} onValueChange={setActiveTab} className="w-full flex-col justify-center gap-6">
-      <div className="flex items-center justify-center px-4 lg:px-6">
+      <div className="flex gap-5 items-center justify-center px-4 lg:px-6">
         <Label htmlFor="view-selector" className="sr-only">
           View
         </Label>
-        <Select defaultValue="outline">
+        <Select defaultValue="outline" value={activeTab} onValueChange={setActiveTab}>
           <SelectTrigger className="flex w-fit @4xl/main:hidden" size="sm" id="view-selector">
-            <SelectValue placeholder="Generated Articles" />
+            <SelectValue />
           </SelectTrigger>
           <SelectContent>
-            <SelectItem value="generated">Generated Articles</SelectItem>
-            <SelectItem value="published">Published Articles</SelectItem>
-            <SelectItem value="scheduled">Scheduled Articles</SelectItem>
-            <SelectItem value="archived">Archived Articles</SelectItem>
+            {tabStatuses.map((status) => (
+              <SelectItem key={status} value={status}>{status[0].toUpperCase() + status.slice(1)} Articles</SelectItem>
+            ))}
           </SelectContent>
         </Select>
         <TabsList className="**:data-[slot=badge]:bg-muted-foreground/30 hidden **:data-[slot=badge]:size-5 **:data-[slot=badge]:rounded-full **:data-[slot=badge]:px-1 @4xl/main:flex">

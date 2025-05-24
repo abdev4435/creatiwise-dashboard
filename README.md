@@ -1,12 +1,79 @@
-# React + Vite
+# **Creatiwise Dashboard**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+_An elegant and responsive dashboard interface built using React, Vite, Tailwind CSS, and ShadCN/UI blocks. This project was developed as part of an internship assignment for Creatiwise, focusing on implementing modern UI components such as **sidebar-07** and **dashboard-01.**_
 
-Currently, two official plugins are available:
+## ✨ <ins>Features</ins>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#### 👉🏻 Collapsible Sidebar (sidebar-07): A sleek sidebar that collapses to icons, enhancing navigation and saving screen space.
 
-## Expanding the ESLint configuration
+#### 👉🏻 Dashboard Layout (dashboard-01): A comprehensive dashboard layout featuring analytics cards, charts, and data tables.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+#### 👉🏻 Responsive Design: Ensures optimal viewing experience across devices.
+
+#### 👉🏻 Modern Tech Stack: Utilizes React, Vite, Tailwind CSS, and ShadCN/UI for efficient and scalable development.
+
+# 🚀Getting Started
+
+## ℹ️Installation
+
+#### 👉🏻 Clone the repository (Run)
+
+    git clone https://github.com/abdev4435/creatiwise-dashboard.git
+    cd creatiwise-dashboard
+
+#### 👉🏻 Install dependencies
+
+    npm install
+
+#### 👉🏻 Start the development server
+
+    npm run dev
+
+#### 👉🏻 Start the development server
+
+    Navigate to "http://localhost:5173"
+
+## 📸<ins>Screenshots</ins>
+
+### 🖥️Big Screens
+
+#### 👇🏻Main Screen
+
+![](./screenshots/01.png)
+
+#### 👇🏻Sidebar on Hovering subitems
+
+![](./screenshots/02.png)
+
+#### 👇🏻Collapsed Sidebar
+
+![](./screenshots/03.png)
+
+#### 👇🏻Search bar functionality
+
+![](./screenshots/04.png)
+
+#### 👇🏻View Article Functionality
+
+![](./screenshots/05.png)
+
+### 📱Small Screens
+
+#### 👇🏻Mini Tablet View
+
+![](./screenshots/06.png)
+
+#### 👇🏻Article Tabs on small screen
+
+![](./screenshots/07.png)
+
+#### 👇🏻Sidebar
+
+![](./screenshots/08.png)
+![](./screenshots/09.png)
+
+#### 👇🏻View Functionality on small screen
+
+![](./screenshots/10.png)
+
+Developed with ❤️ by _Abdullah Surve_ as part of the Creatiwise internship assignment.
