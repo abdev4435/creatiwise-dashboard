@@ -1,0 +1,111 @@
+{
+  "navMain": [
+    {
+      "title": "Articles",
+      "url": "#",
+      "iconSrc": "/Icons/articles.png",
+      "items": [
+        {
+          "title": "Create Article",
+          "url": "#"
+        },
+        {
+          "title": "Generated Articles",
+          "url": "#"
+        },
+        {
+          "title": "Keyword Projects",
+          "url": "#"
+        },
+        {
+          "title": "AI Keyword to Article",
+          "url": "#"
+        },
+        {
+          "title": "Steal Competitor Keyword",
+          "url": "#"
+        },
+        {
+          "title": "Import Keyword from GSC",
+          "url": "#"
+        },
+        {
+          "title": "Manual Keyword to Article",
+          "url": "#"
+        },
+        {
+          "title": "Bulk Keyword to Article",
+          "url": "#"
+        },
+        {
+          "title": "Longtail Keyword to Article",
+          "url": "#"
+        },
+        {
+          "title": "Article Settings",
+          "url": "#"
+        }
+      ]
+    },
+    {
+      "title": "Auto Blog",
+      "url": "#",
+      "iconSrc": "/Icons/blogging.png",
+      "isActive": true
+    },
+    {
+      "title": "Internal Links",
+      "url": "#",
+      "iconSrc": "/Icons/internal-links.png",
+      "isActive": true
+    },
+    {
+      "title": "Free Backlinks",
+      "url": "#",
+      "iconSrc": "/Icons/backlink.png",
+      "isActive": true
+    },
+    {
+      "title": "Integrations",
+      "url": "#",
+      "iconSrc": "/Icons/integrations.png",
+      "isActive": true
+    },
+    {
+      "title": "Subscription",
+      "url": "#",
+      "iconSrc": "/Icons/subscription.png",
+      "isActive": true
+    },
+    {
+      "title": "Affiliate Program",
+      "url": "#",
+      "iconSrc": "/Icons/affiliate-marketing.png",
+      "isActive": true
+    },
+    {
+      "title": "Help Center",
+      "url": "#",
+      "iconSrc": "/Icons/customer-service.png",
+      "isActive": true
+    },
+    {
+      "title": "Updates",
+      "url": "#",
+      "iconSrc": "/Icons/updates.png",
+      "isActive": true
+    },
+    {
+      "title": "Live Chat Support",
+      "url": "#",
+      "iconSrc": "/Icons/live-chat.png",
+      "isActive": true
+    },
+    {
+      "title": "Profile",
+      "url": "#",
+      "iconSrc": "/Icons/profile-candidate.png",
+      "isActive": true
+    }
+  ]
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "article_title": "How to Improve Your Skills in League of Legends",
+    "keyword": "league of legends",
+    "traffic": 2240000,
+    "words": 4575,
+    "created_on": "20 hours ago",
+    "action": "View",
+    "status": "generated"
+  },
+  {
+    "id": 2,
+    "article_title": "Mastering Last Hitting in League of Legends",
+    "keyword": "league of legends",
+    "traffic": 2240000,
+    "words": 3480,
+    "created_on": null,
+    "action": "View",
+    "status": "generated"
+  },
+  {
+    "id": 3,
+    "article_title": "7 Tips for Better Teamplay in League of Legends",
+    "keyword": "league of legends",
+    "traffic": 2240000,
+    "words": 2676,
+    "created_on": "19-09-2019",
+    "action": "View",
+    "status": "published"
+  },
+  {
+    "id": 4,
+    "article_title": "Top Virtual Executive Assistant Services (2024)",
+    "keyword": "virtual executive assistant",
+    "traffic": 2900,
+    "words": 2408,
+    "created_on": "01-10-2024",
+    "action": "View",
+    "status": "scheduled"
+  },
+  {
+    "id": 5,
+    "article_title": "Unlimited Graphics Design Solutions for Startups",
+    "keyword": "unlimited graphic design services",
+    "traffic": 390,
+    "words": 1793,
+    "created_on": "22-08-2020",
+    "action": "View",
+    "status": "archived"
+  },
+  {
+    "id": 6,
+    "article_title": "Top Amazon Payment Methods for Quick Access to Funds",
+    "keyword": "amazon payment methods",
+    "traffic": 3600,
+    "words": 2647,
+    "created_on": "15-01-2016",
+    "action": "View",
+    "status": "scheduled"
+  },
+  {
+    "id": 7,
+    "article_title": "Backlinks 101: What are backlinks and why they're important",
+    "keyword": "backlinks",
+    "traffic": 8100,
+    "words": 2261,
+    "created_on": null,
+    "action": "View",
+    "status": "generated"
+  },
+  {
+    "id": 8,
+    "article_title": "7 Leading AI SEO Tools in 2024 (Ranked & Compared)",
+    "keyword": "ai seo software",
+    "traffic": 880,
+    "words": 1543,
+    "created_on": "12-03-2014",
+    "action": "View",
+    "status": "archived"
+  },
+  {
+    "id": 9,
+    "article_title": "Reliable Unlimited Graphic Design Services",
+    "keyword": "unlimited graphic design services",
+    "traffic": 390,
+    "words": 1974,
+    "created_on": "17-05-2010",
+    "action": "View",
+    "status": "published"
+  },
+  {
+    "id": 10,
+    "article_title": "Beginner's Guide to Mastering Chess Openings",
+    "keyword": "chess openings",
+    "traffic": 15000,
+    "words": 3120,
+    "created_on": "16-08-2009",
+    "action": "View",
+    "status": "published"
+  },
+  {
+    "id": 11,
+    "article_title": "The Benefits of Daily Meditation for Stress Relief",
+    "keyword": "meditation benefits",
+    "traffic": 7800,
+    "words": 1850,
+    "created_on": "14-07-2007",
+    "action": "View",
+    "status": "published"
+  },
+  {
+    "id": 12,
+    "article_title": "Your Ultimate Guide to Starting a Small Business Online",
+    "keyword": "start online business",
+    "traffic": 12000,
+    "words": 4100,
+    "created_on": "15-01-2025",
+    "action": "View",
+    "status": "published"
+  },
+  {
+    "id": 13,
+    "article_title": "Exploring the Hidden Hiking Trails in the Himalayas",
+    "keyword": "himalayan hiking",
+    "traffic": 5500,
+    "words": 2900,
+    "created_on": "01-04-2025",
+    "action": "View",
+    "status": "archived"
+  },
+  {
+    "id": 14,
+    "article_title": "An Introduction to Quantum Computing for Developers",
+    "keyword": "quantum computing intro",
+    "traffic": 900,
+    "words": 2100,
+    "created_on": null,
+    "action": "View",
+    "status": "generated"
+  },
+  {
+    "id": 15,
+    "article_title": "Healthy & Delicious Recipes for a Balanced Diet",
+    "keyword": "healthy recipes",
+    "traffic": 25000,
+    "words": 1600,
+    "created_on": "09-07-2019",
+    "action": "View",
+    "status": "published"
+  },
+  {
+    "id": 16,
+    "article_title": "Understanding the Basics of Cryptocurrency Trading",
+    "keyword": "crypto trading",
+    "traffic": 18000,
+    "words": 3050,
+    "created_on": "12-04-2013",
+    "action": "View",
+    "status": "published"
+  },
+  {
+    "id": 17,
+    "article_title": "Advanced Python Techniques for Data Scientists",
+    "keyword": "python data science",
+    "traffic": 9500,
+    "words": 3800,
+    "created_on": "07-03-2020",
+    "action": "View",
+    "status": "archived"
+  },
+  {
+    "id": 18,
+    "article_title": "The Evolution of Artificial Intelligence in Healthcare",
+    "keyword": "ai in healthcare",
+    "traffic": 6000,
+    "words": 2750,
+    "created_on": "23-08-2024",
+    "action": "View",
+    "status": "published"
+  },
+  {
+    "id": 19,
+    "article_title": "Effective Strategies for Remote Team Management",
+    "keyword": "remote team management",
+    "traffic": 4200,
+    "words": 2300,
+    "created_on": "27-02-2022",
+    "action": "View",
+    "status": "archived"
+  },
+  {
+    "id": 20,
+    "article_title": "A Comprehensive Guide to Sustainable Living",
+    "keyword": "sustainable living",
+    "traffic": 11000,
+    "words": 3300,
+    "created_on": "21-12-2022",
+    "action": "View",
+    "status": "archived"
+  }
+]
