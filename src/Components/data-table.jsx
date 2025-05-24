@@ -310,7 +310,7 @@ export function ArticleTable({
           <div className="ml-auto flex items-center gap-2 lg:ml-0">
             <Button
               variant="outline"
-              className="hidden h-8 w-8 p-0 lg:flex"
+              className="hidden h-8 w-8 p-0 lg:flex cursor-pointer"
               onClick={() => table.setPageIndex(0)}
               disabled={!table.getCanPreviousPage()}>
               <span className="sr-only">Go to first page</span>
@@ -318,7 +318,7 @@ export function ArticleTable({
             </Button>
             <Button
               variant="outline"
-              className="size-8"
+              className="size-8 cursor-pointer"
               size="icon"
               onClick={() => table.previousPage()}
               disabled={!table.getCanPreviousPage()}>
@@ -336,7 +336,7 @@ export function ArticleTable({
             </Button>
             <Button
               variant="outline"
-              className="hidden size-8 lg:flex"
+              className="hidden size-8 lg:flex cursor-pointer"
               size="icon"
               onClick={() => table.setPageIndex(table.getPageCount() - 1)}
               disabled={!table.getCanNextPage()}>
@@ -488,12 +488,12 @@ function TableCellViewer({
   item
 }) {
   const isMobile = useIsMobile()
-
+  const disable = item.status !== "published" && item.status !== "archived"
   return (
     (<Drawer direction={isMobile ? "bottom" : "right"}>
       <DrawerTrigger asChild>
         <div className="w-full flex items-center justify-center">
-          <Button variant="outline" className="border-green-500 text-green-500 text-xs hover:text-green-500 cursor-pointer" size="sm">
+          <Button variant="outline" className={`border-green-500 text-green-500 text-xs hover:text-green-500 cursor-pointer ${disable ? "cursor-not-allowed" : ""}`} size="sm" disabled={disable}>
             {item.action}
           </Button>
         </div>
@@ -563,8 +563,8 @@ function TableCellViewer({
             </div>
             <div className="grid grid-cols-2 gap-4">
               <div className="flex flex-col gap-3">
-                <Label htmlFor="status">Published On</Label>
-                <span id="status">{item.created_on}</span>
+                <Label htmlFor="status">Status</Label>
+                <span id="status">{item.status[0].toUpperCase() + item.status.slice(1,)}</span>
               </div>
               <div className="flex flex-col gap-3">
                 <Label htmlFor="keyword">Keyword</Label>
@@ -585,9 +585,9 @@ function TableCellViewer({
           </form>
         </div>
         <DrawerFooter>
-          <Button>Submit</Button>
+          <Button className="cursor-pointer">Submit</Button>
           <DrawerClose asChild>
-            <Button variant="outline">Done</Button>
+            <Button variant="outline" className="cursor-pointer">Done</Button>
           </DrawerClose>
         </DrawerFooter>
       </DrawerContent>

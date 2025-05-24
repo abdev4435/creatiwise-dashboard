@@ -11,14 +11,9 @@ function App() {
         <AppSidebar className="" />
         <SidebarInset>
           <SiteHeader />
-          <div className="flex justify-center items-center font-bold text-4xl">
-            <h1>Articles</h1>
-          </div>
-          <div className="flex flex-1 flex-col">
+          <div className="flex flex-1 flex-col mt-5">
             <div className="@container/main flex flex-1 flex-col gap-2">
               <div className="flex flex-col gap-4 py-4 md:gap-6 md:py-2">
-                <div className="px-4 lg:px-6">
-                </div>
                 <DataTable data={data} />
               </div>
             </div>
