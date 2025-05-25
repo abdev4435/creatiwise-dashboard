@@ -1,14 +1,14 @@
 import * as React from "react"
 
-import { NavMain } from "@/components/nav-main"
-import { NavUser } from "@/components/nav-user"
+import { NavMain } from "@/Components/nav-main"
+import { NavUser } from "@/Components/nav-user"
 import {
   Sidebar,
   SidebarContent,
   SidebarHeader,
   SidebarRail,
   // useSidebar,
-} from "@/components/ui/sidebar"
+} from "@/Components/ui/sidebar"
 import userData from "../data/user.json"
 import navData from "../data/nav-data.json"
 
