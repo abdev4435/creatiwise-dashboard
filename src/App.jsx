@@ -1,6 +1,6 @@
 import { AppSidebar } from "./Components/app-sidebar"
-import { SiteHeader } from "./Components/ui/site-header"
-import { DataTable } from "./Components/ui/data-table"
+import { SiteHeader } from "@/Components/site-header"
+import { DataTable } from "@/Components/data-table"
 import { SidebarProvider, SidebarInset } from "./Components/ui/sidebar"
 import data from "./data/data.json"
 function App() {
